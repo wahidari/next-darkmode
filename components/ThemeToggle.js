@@ -20,12 +20,12 @@ const ToggleButton = styled.button`
     cursor: pointer;
     background: var(--color-bg-toggle);
     transition: background 0.25s ease-in-out 0s, box-shadow 0.25s ease-in-out 0s;
-  &:focus {
-    outline-offset: 2px;
-  }
-  &:focus:not(:focus-visible) {
-    outline: none;
-  }
+    &:focus {
+      outline-offset: 2px;
+    }
+    &:focus:not(:focus-visible) {
+      outline: none;
+    }
 `;
 
 const ToggleThumb = styled.span`
@@ -63,8 +63,8 @@ const ThemeToggle = () => {
       type="button"
       onClick={() => setActiveTheme(inactiveTheme)}>
       <ToggleThumb activeTheme={activeTheme} />
-      <span aria-hidden={true}>🌙</span>
       <span aria-hidden={true}>☀️</span>
+      <span aria-hidden={true}>🌙</span>
     </ToggleButton>
   );
 };
