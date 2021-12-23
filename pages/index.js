@@ -14,7 +14,7 @@ export default function Home() {
 						color: var(--color-text-secondary);
 					}
 					.card {
-						background: var(--color-bg-primary);
+						background: var(--color-bg-secondary);
 					}
 					.card-text {
 						color: var(--color-text-secondary);

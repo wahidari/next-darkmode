@@ -16,18 +16,20 @@ a {
 }
 
 body[data-theme="light"] {
-  --color-text-primary: #212529;
-  --color-text-secondary: #343a40;
-  --color-bg-primary: #fff;
-  --color-bg-secondary: #f8f9fa;
+  --color-text-primary: #090910;
+  --color-text-secondary: #171923;
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f5f5fa;
+  --color-bg-tertiary: #f1f1f1;
   --color-bg-toggle: #1e90ff;
 }
 
 body[data-theme="dark"] {
-  --color-text-primary: #fff;
+  --color-text-primary: #ffffff;
   --color-text-secondary: #f1f1f1;
-  --color-bg-primary: #222222;
-  --color-bg-secondary: #343a40;
+  --color-bg-primary: #090910;
+  --color-bg-secondary: #171923;
+  --color-bg-tertiary: #252a37;
   --color-bg-toggle: #a9a9a9;
 }
 
