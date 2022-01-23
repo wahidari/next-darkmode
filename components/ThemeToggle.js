@@ -43,7 +43,7 @@ const ToggleThumb = styled.span`
 			: "none"};
 `;
 
-const ThemeToggle = () => {
+export default function ThemeToggle() {
 	const [activeTheme, setActiveTheme] = useState(document.body.dataset.theme);
 	const inactiveTheme = activeTheme === "light" ? "dark" : "light";
 
@@ -70,5 +70,3 @@ const ThemeToggle = () => {
 		</ToggleButton>
 	);
 };
-
-export default ThemeToggle;
