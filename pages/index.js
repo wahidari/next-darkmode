@@ -7,17 +7,8 @@ export default function Home() {
 		<>
 			<style jsx>
 				{`
-					h1 {
-						color: var(--color-text-primary);
-					}
-					p {
-						color: var(--color-text-secondary);
-					}
 					.card {
-						background: var(--color-bg-secondary);
-					}
-					.card-text {
-						color: var(--color-text-secondary);
+						background: var(--bg-color-secondary);
 					}
 				`}
 			</style>
@@ -37,8 +28,8 @@ export default function Home() {
 				<section className="py-4 text-center container">
 					<div className="row py-lg-3">
 						<div className="col-lg-6 col-md-8 mx-auto">
-							<h1>Album example</h1>
-							<p className="lead">
+							<h1 className="text-color-primary">Album example</h1>
+							<p className="lead text-color-secondary">
 								Something short and leading about the collection
 								below—its contents, the creator, etc.
 							</p>
@@ -80,7 +71,7 @@ export default function Home() {
 										></rect>{" "}
 									</svg>
 									<div className="card-body">
-										<p className="card-text">
+										<p className="card-text text-color-secondary">
 											This is a wider card with supporting
 											text below as a natural lead-in to
 											additional content. This content is
@@ -101,7 +92,7 @@ export default function Home() {
 													Edit
 												</button>
 											</div>
-											<small className="text-muted">
+											<small className="text-color-muted">
 												9 mins
 											</small>
 										</div>
@@ -128,7 +119,7 @@ export default function Home() {
 										></rect>{" "}
 									</svg>
 									<div className="card-body">
-										<p className="card-text">
+										<p className="card-text text-color-secondary">
 											This is a wider card with supporting
 											text below as a natural lead-in to
 											additional content. This content is
@@ -149,7 +140,7 @@ export default function Home() {
 													Edit
 												</button>
 											</div>
-											<small className="text-muted">
+											<small className="text-color-muted">
 												9 mins
 											</small>
 										</div>
@@ -176,7 +167,7 @@ export default function Home() {
 										></rect>{" "}
 									</svg>
 									<div className="card-body">
-										<p className="card-text">
+										<p className="card-text text-color-secondary">
 											This is a wider card with supporting
 											text below as a natural lead-in to
 											additional content. This content is
@@ -197,7 +188,7 @@ export default function Home() {
 													Edit
 												</button>
 											</div>
-											<small className="text-muted">
+											<small className="text-color-muted">
 												9 mins
 											</small>
 										</div>

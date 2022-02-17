@@ -12,19 +12,19 @@ export default function MyNavbar() {
             <style jsx>
                 {`
                 .bg-navbar {
-                    background: var(--color-bg-primary);
+                    background: var(--bg-color-primary);
                 }
                 .nav-link {
-                    color: var(--color-text-primary) !important;
+                    color: var(--text-color-primary) !important;
                 }
                 .nav-link:hover {
                     color: #1e90ff !important;
                 }
                 .navbar-brand {
-                    color: var(--color-text-primary) !important;
+                    color: var(--text-color-primary) !important;
                 }
                 .icon-toggle {
-                    color: var(--color-text-primary) !important;
+                    color: var(--text-color-primary) !important;
                 }
             `}
             </style>
